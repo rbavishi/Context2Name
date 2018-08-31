@@ -1,0 +1,9 @@
+data
+*.csv
+*.swp
+*.swo
+*.pyc
+log_analysis.c2n
+log_analysis.jsnice
+log_analysis.jsnaughty
+js-priority-queue
