@@ -4,7 +4,7 @@ The paper can be found [here](http://software-lab.org/publications/Context2Name_
 
 The training and testing dataset is a derivative of the [js150](https://www.sri.inf.ethz.ch/js150.php) dataset. Duplicates and common entries between the training and testing set have been removed.
 
-compare.jar is a slightly modified version of the [JSNice jar distribution](https://files.sri.inf.ethz.ch/jsniceartifact/index.html) and is primarily used for evaluating performance i.e. accuracy of predicted names given the ground-truth.
+compare.jar is a slightly modified version of the [JSNice jar distribution](https://files.sri.inf.ethz.ch/jsniceartifact/index.html) and is primarily used for evaluating performance i.e. accuracy of predicted names given the ground-truth. The primary change is the disabling of exclusion of files based on their size, and computation of some additional stats such as number of unique names recovered etc. 
 
 The following sections state the commands to be used for various scenarios.
 
