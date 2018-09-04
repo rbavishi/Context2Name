@@ -13,13 +13,13 @@ The following sections state the commands to be used for various scenarios.
 ##### This involves normalization and minification
 
 ```
-python3 data_scripts/prepareCorpus.py --minify --force "eval_list.txt" # Minification
-python3 data_scripts/prepareCorpus.py --minify --no-mangle --force "eval_list.txt" # Normaliation
+python3 data_scripts/prepare_corpus.py --minify --force "eval_list.txt" # Minification
+python3 data_scripts/prepare_corpus.py --minify --no-mangle --force "eval_list.txt" # Normaliation
 ```
 
 ```
-python3 data_scripts/prepareCorpus.py --minify --force "training_list.txt" # Minification
-python3 data_scripts/prepareCorpus.py --minify --no-mangle --force "training_list.txt" # Normaliation
+python3 data_scripts/prepare_corpus.py --minify --force "training_list.txt" # Minification
+python3 data_scripts/prepare_corpus.py --minify --no-mangle --force "training_list.txt" # Normaliation
 ```
 
 ### Training Context2Name
