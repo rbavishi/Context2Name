@@ -1,6 +1,6 @@
 ## Context2Name
 
-The paper can be found [here](http://software-lab.org/publications/Context2Name_TR_Mar2018.pdf)
+The paper can be found [here](https://arxiv.org/abs/1809.05193)
 
 The training and testing dataset is a derivative of the [js150](https://www.sri.inf.ethz.ch/js150.php) dataset. Duplicates and common entries between the training and testing set have been removed.
 
