@@ -49,17 +49,17 @@ First make sure that the output of JSNaughty is stored as *.jsnaughty.js and its
 
 ##### Evaluating JSNice
 ```
-java -jar compare.jar --eval_jsnice --jsnice_features=ASTREL,NODEFLAG,ARGALIAS,FNAMES --jsnice_infer=NAMES --use_inp_file_list eval_list.txt --save_recovered_files --print_stats > log_analysis.jsnice 
+java -jar compare.jar --eval_jsnice --jsnice_features=ASTREL,NODEFLAG,ARGALIAS,FNAMES --jsnice_infer=NAMES --use_inp_file_list eval_list.txt --save_recovered_files --use_normalized --print_stats > log_analysis.jsnice 
 ```
 
 ##### Evaluating Context2Name
 ```
-java -jar compare.jar --eval_jsnice --jsnice_features=ASTREL,NODEFLAG,ARGALIAS,FNAMES --jsnice_infer=NAMES --use_inp_file_list eval_list.txt --eval_metrics_only --custom_ext "c2n" --print_stats > log_analysis.c2n
+java -jar compare.jar --eval_jsnice --jsnice_features=ASTREL,NODEFLAG,ARGALIAS,FNAMES --jsnice_infer=NAMES --use_inp_file_list eval_list.txt --eval_metrics_only --custom_ext "c2n" --use_normalized --print_stats > log_analysis.c2n
 ```
 
 ##### Evaluating JSNaughty
 ```
-java -jar compare.jar --eval_jsnice --jsnice_features=ASTREL,NODEFLAG,ARGALIAS,FNAMES --jsnice_infer=NAMES --use_inp_file_list eval_list.txt --eval_metrics_only --custom_ext "jsnaughty" --print_stats > log_analysis.jsnaughty
+java -jar compare.jar --eval_jsnice --jsnice_features=ASTREL,NODEFLAG,ARGALIAS,FNAMES --jsnice_infer=NAMES --use_inp_file_list eval_list.txt --eval_metrics_only --custom_ext "jsnaughty" --use_normalized --print_stats > log_analysis.jsnaughty
 ```
 
 
